@@ -1,4 +1,10 @@
 body {
   margin: 0; }
 
+.above-the-fold .image-container {
+  width: 100%;
+  height: 100%;
+  background-position: bottom;
+  background-size: auto; }
+
 /*# sourceMappingURL=styles.css.map */
