@@ -6,4 +6,3 @@
     </head>
 <body>
     
-<h1>Christina Q Nichols</h1>
