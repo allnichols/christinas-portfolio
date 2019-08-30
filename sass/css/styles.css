@@ -5,6 +5,15 @@ body {
   width: 100%;
   height: 100%;
   background-position: bottom;
-  background-size: auto; }
+  background-size: auto;
+  position: relative; }
+.above-the-fold .above-the-fold-text {
+  position: absolute;
+  bottom: 10%;
+  text-align: center;
+  left: 31px; }
+  .above-the-fold .above-the-fold-text nav a {
+    color: #0F0F0F;
+    text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
