@@ -1,7 +1,6 @@
 <?php
     get_header();
 ?>
-
 <section class="above-the-fold">
 
 <div class="above-the-fold-container">
