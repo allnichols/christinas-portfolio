@@ -7,13 +7,20 @@ body {
   background-position: bottom;
   background-size: auto;
   position: relative; }
-.above-the-fold .above-the-fold-text {
+.above-the-fold .above-the-fold_text {
   position: absolute;
   bottom: 10%;
   text-align: center;
-  left: 31px; }
-  .above-the-fold .above-the-fold-text nav a {
+  left: 18px; }
+  .above-the-fold .above-the-fold_text h1 {
+    font-size: 2em;
+    margin-bottom: 18px; }
+  .above-the-fold .above-the-fold_text nav a {
     color: #0F0F0F;
     text-decoration: none; }
+
+.copywriting-section .copywriting-description {
+  width: 85%;
+  margin: auto; }
 
 /*# sourceMappingURL=styles.css.map */

@@ -10,8 +10,8 @@
     <div class="above-the-fold_text">
         <h1>Christina Q. Nichols</h1>
         <nav>
-            <a href="#!">CopyWriter</a>
-            <a href="#!">Photographer</a>
+            <a href="#!">Copywriter -</a>
+            <a href="#!">Photographer -</a>
             <a href="#!">Video Editor</a>
             <!-- <a href="#!"></a> -->
         </nav>
@@ -20,14 +20,18 @@
 
     
 
-</div>
- 
-
-
-
-
+  </div>
 </section>
 
+<section class="copywriting-section">
+
+    <div class="copywriting-description">
+        <h1>Copywriting</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Reprehenderit facilis sunt est iste numquam cumque.</p>
+    </div>
+
+</section>
 
 <?php
 get_footer();
