@@ -25,9 +25,8 @@
 <section class="copywriting-section">
 
     <div class="copywriting-description">
-        <h1>Copywriting</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-            Reprehenderit facilis sunt est iste numquam cumque.</p>
+        <h1> <?php the_field('copy_writing_title'); ?> </h1>
+        <p> <?php the_field('copy_description'); ?> </p>
     </div>
 
 </section>
