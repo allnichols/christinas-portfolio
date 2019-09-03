@@ -27,6 +27,26 @@
     <div class="copywriting-description">
         <h1> <?php the_field('copy_writing_title'); ?> </h1>
         <p> <?php the_field('copy_description'); ?> </p>
+
+        <?php //object for copy writing posts
+            $args = array(
+                'posts_per_page' => '5',
+                'nopaging' => true,
+                 'category_name' => 'published_work'
+            );
+            $custom_query = new WP_Query($args); //custom query call
+        if ($custom_query->have_posts() ) : ?>
+        <?php while ($custom_query->have_posts()) :
+                        $custom_query->the_post();
+                        the_title();
+                        the_content();
+        endwhile; else :
+            //not found
+        endif;
+        wp_reset_postdata(); ?>
+
+
+
     </div>
 
 </section>
