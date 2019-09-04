@@ -2,8 +2,12 @@ body{
     margin: 0;
 }
 
-h1,h3,h4,h5,h6,p,a{
+h1,h2,h3,h4,h5,h6,p,a{
     font-family: 'Cormorant', serif; 
+    color: #1E1E1E;
+}
+h1,h2,h3,h4,h5,h6{
+    letter-spacing: 1.5px;
 }
 // p,a{
 //     // font-family: 'Marcellus', serif;
