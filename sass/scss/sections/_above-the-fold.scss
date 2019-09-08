@@ -13,8 +13,10 @@
     .above-the-fold_text{
         position: absolute;
         bottom: 10%;
+        left:0;
+        right: 0;
+        margin: auto;
         text-align: center;
-        left: 27px;
         h1{
             font-size: 2em;
             margin-bottom: 18px;

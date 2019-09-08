@@ -3,5 +3,6 @@ Christina Q. Nichols Portfolio Site
 
 
 to-do-list
-1. style text properly
-2. add barba.js
+1. add svg - possibly js svg library.
+2. style text properly
+3. add barba.js
