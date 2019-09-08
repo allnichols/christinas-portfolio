@@ -24,6 +24,8 @@
 
 <?php get_template_part( 'template-parts/home/content', 'copy' ); ?>
 
+
+ 
 <section class="photography-section">
     
 </section>

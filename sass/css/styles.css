@@ -32,10 +32,17 @@ h1, h2, h3, h4, h5, h6 {
   width: 85%;
   margin: auto; }
 
-.copywriting-section .copywriting-description {
-  margin-top: 50px; }
-  .copywriting-section .copywriting-description p {
-    margin-left: 1em; }
+.copywriting-section {
+  position: relative; }
+  .copywriting-section .copywriting-description {
+    margin-top: 50px; }
+    .copywriting-section .copywriting-description p {
+      margin-left: 1em; }
+  .copywriting-section .curve {
+    position: absolute;
+    bottom: -36px;
+    z-index: -1;
+    transform: rotate(180deg); }
 
 .copywriting-post-container {
   margin-top: 55px;
@@ -49,5 +56,9 @@ h1, h2, h3, h4, h5, h6 {
     .copywriting-post-container .copywriting-post a {
       color: #E3879E;
       font-weight: 700; }
+
+.photography-section {
+  background-color: #223843;
+  padding: 10px; }
 
 /*# sourceMappingURL=styles.css.map */

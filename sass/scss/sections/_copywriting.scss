@@ -1,4 +1,6 @@
 .copywriting-section{
+    position: relative;
+
 
     .copywriting-description{
         margin-top: 50px;
@@ -7,7 +9,12 @@
         }
     }
     
-    
+    .curve{
+        position: absolute;
+        bottom: -36px;
+        z-index: -1;
+        transform: rotate(180deg);
+    }
 }
 
 .copywriting-post-container{

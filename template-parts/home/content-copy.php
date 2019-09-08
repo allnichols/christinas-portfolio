@@ -29,7 +29,7 @@
      
 
     </div>
-
+    <img class="curve" src="<?php echo get_bloginfo( 'template_directory' ); ?>/svg/background.svg" alt="">
 </section>
     
 
